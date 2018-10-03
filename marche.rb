@@ -50,11 +50,13 @@ end
 def perform
     p "=========================="
     p "La partie commence ... "
-    
+    puts ' ' * 10
+    puts ' ' * 10
     @nbStep = 10 #dimension du jeu
         
     play    
-    
+    puts ' ' * 10
+    puts ' ' * 10
     p "=========================="
 end
 
